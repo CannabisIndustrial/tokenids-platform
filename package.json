@@ -1,0 +1,40 @@
+{
+  "name": "tokenids-platform",
+  "version": "1.0.0",
+  "description": "**TFM — Master en Ingeniería Blockchain & IA** Autora: Johana Niño Abella",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CannabisIndustrial/tokenids-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CannabisIndustrial/tokenids-platform/issues"
+  },
+  "homepage": "https://github.com/CannabisIndustrial/tokenids-platform#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.9",
+    "@nomicfoundation/hardhat-ignition-viem": "^3.0.9",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.3",
+    "@nomicfoundation/hardhat-verify": "^3.0.12",
+    "@types/node": "^25.5.0",
+    "dotenv": "^17.3.1",
+    "hardhat": "^3.1.12",
+    "solc": "^0.8.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  },
+  "type": "module"
+}
